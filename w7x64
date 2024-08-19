@@ -4,7 +4,7 @@ echo "Download ngrok"
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 read -p "Ctrl + V Authtoken: " CRP 
-./ngrok authtoken 1k4L5QXzedXoyA5OawS4IVe7nQb_79AQTC1h3xUaTVQ5rZf4a
+./ngrok authtoken 2krYF4xs9TEZWcDTnHUNq8PbrM3_7tUGScJRW5S8eQ4LFCsKL
 nohup ./ngrok tcp 3388 &>/dev/null &
 echo Downloading File From akuh.net
 apt-get install qemu
