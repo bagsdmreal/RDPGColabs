@@ -11,7 +11,7 @@ apt-get install qemu
 echo "Wait"
 echo "Starting Windows"
 echo RDP Address:
-curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
+curl --silent --show-error http://127.0.0.1:4040 | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
 echo "Ctrl+C To Copy"
 echo "Wait 1-2 minute to finish bot"
 echo "Dont Close This Tab"
